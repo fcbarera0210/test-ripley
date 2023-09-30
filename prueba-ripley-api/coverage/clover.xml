@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1696023060261" clover="3.2.0">
+  <project timestamp="1696023060261" name="All files">
+    <metrics statements="39" coveredstatements="39" conditionals="3" coveredconditionals="3" methods="8" coveredmethods="8" elements="50" coveredelements="50" complexity="0" loc="39" ncloc="39" packages="3" files="3" classes="3"/>
+    <package name="config">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="configuration.ts" path="/Users/pedroguerreroperez/dev/prueba-ripley/prueba-ripley-api/src/config/configuration.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="desa.controllers">
+      <metrics statements="22" coveredstatements="22" conditionals="1" coveredconditionals="1" methods="3" coveredmethods="3"/>
+      <file name="desa.controller.ts" path="/Users/pedroguerreroperez/dev/prueba-ripley/prueba-ripley-api/src/desa/controllers/desa.controller.ts">
+        <metrics statements="22" coveredstatements="22" conditionals="1" coveredconditionals="1" methods="3" coveredmethods="3"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="5" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="46" count="2" type="stmt"/>
+        <line num="47" count="2" type="stmt"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="72" count="1" type="stmt"/>
+        <line num="75" count="3" type="stmt"/>
+        <line num="78" count="3" type="stmt"/>
+        <line num="79" count="3" type="stmt"/>
+        <line num="81" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="82" count="1" type="stmt"/>
+        <line num="85" count="1" type="stmt"/>
+        <line num="90" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="desa.services">
+      <metrics statements="16" coveredstatements="16" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+      <file name="desa.service.ts" path="/Users/pedroguerreroperez/dev/prueba-ripley/prueba-ripley-api/src/desa/services/desa.service.ts">
+        <metrics statements="16" coveredstatements="16" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="40" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
