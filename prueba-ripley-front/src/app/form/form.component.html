@@ -1,0 +1,24 @@
+<div class="container">
+  <form [formGroup]="form" (keyup.enter)="save()">
+    <div class="input-box">
+      <label for="">Rut Cliente</label>
+      <input formControlName="RutCliente" type="text" placeholder="12345678" />
+    </div>
+    <div class="row">
+      <div class="input-box">
+        <label for="">Monto Credito</label>
+        <input formControlName="MontoDelCredito" type="number" />
+      </div>
+      <div class="input-box">
+        <label for="">Número Cuotas</label>
+        <input formControlName="NumeroCuotas" type="number" />
+      </div>
+    </div>
+    <button (click)="save()">Calcular Valor Cuota</button>
+  </form>
+  <span *ngIf="response"
+    >El valor de la cuota es:
+    <b>{{ response.ValorCuota | currency : "CLP" : "$" }}</b>
+  </span
+  >
+</div>

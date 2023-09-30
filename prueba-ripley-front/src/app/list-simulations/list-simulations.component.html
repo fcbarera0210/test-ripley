@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="form">
+    <div class="input-box" (keyup.enter)="getAllByRut()">
+      <label for="">Rut Cliente</label>
+      <input type="text" [(ngModel)]="rut" />
+    </div>
+    <button (click)="getAllByRut()">Buscar</button>
+  </div>
+  <div class="list">
+    <ul *ngIf="trx.length">
+      <li *ngFor="let item of trx">
+        <div>Monto del Crédito: {{ item.total | currency:'CLP':'$' }} - Número de Cuotas: {{ item.cuotas }} - Valor de la Cuota: {{ item.valorCuota | currency:'CLP':'$' }}</div>
+      </li>
+    </ul>
+  </div>
+</div>

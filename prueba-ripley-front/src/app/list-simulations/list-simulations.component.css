@@ -1,0 +1,65 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.container .form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.container .form .input-box {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.container .form .input-box input {
+  padding: 10px 5px;
+  border-radius: 5px;
+  border: solid 1px #ddd;
+}
+
+.container .form button {
+  background: #f2ad4b;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  transition: all ease .2s;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.container .form button:hover {
+  scale: 1.03;
+  opacity: .95;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.container .list ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.container .list ul li {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  cursor: pointer;
+  transition: all ease .2s;
+}
+
+.container .list ul li:hover {
+  border: 1px solid #4f2d7f;
+  scale: 1.03;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
